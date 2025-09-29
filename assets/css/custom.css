@@ -1,0 +1,133 @@
+.paper {
+  margin-bottom: 2em;
+}
+
+/* Spacing between talks */
+.talk {
+  margin-bottom: 1em;
+}
+
+/* Style for the talk title (on same line as links) */
+.talk-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: Georgia, serif;
+  display: inline;
+  margin-right: 0.2em;
+}
+
+/* Optional: Style the talk links */
+.talk a {
+  font-size: 0.95rem;
+  text-decoration: underline;
+  color: #0055aa;
+}
+
+/* Remove sidebar layout and leftover bullets/padding */
+.site-nav .trigger {
+  all: unset;
+  display: inline-block;
+  padding-left: 0;
+  list-style: none;
+}
+
+/* Top-right nav link styling */
+.site-nav .page-link {
+  display: inline-block;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+/* Align header items vertically */
+.site-header {
+  padding: 1rem 0;
+}
+
+/* Align contents of header horizontally */
+.site-header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 👇 NEW: Force nav block to align right */
+.site-nav {
+  margin-left: auto;
+}
+
+/* Responsive hamburger menu */
+@media screen and (max-width: 768px) {
+  .site-nav label {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .site-nav input.nav-trigger {
+    display: none;
+  }
+
+  .site-nav .trigger {
+    display: none;
+    margin-top: 0.5rem;
+  }
+
+  .site-nav input.nav-trigger:checked + label + .trigger {
+    display: block;
+  }
+
+  .site-nav .page-link {
+    display: block;
+    margin: 0.5rem 0;
+  }
+}
+
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.home-text {
+  flex: 1;
+  min-width: 250px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.home-photo img {
+  width: 180px;
+  height: auto;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+}
+
+.site-nav .page-link.flow::after {
+  content: "";
+  display: block;
+  height: 24px;
+  background: url("data:image/svg+xml,%3Csvg%20width%3D'100'%20height%3D'24'%20viewBox%3D'0%20-12%20100%2024'%20xmlns%3D'http%3A//www.w3.org/2000/svg'%3E%3Cpath%20d%3D'M0%200%20Q25%20-12%2C50%200%20T100%200'%20stroke%3D'%230055aa'%20fill%3D'transparent'%20stroke-width%3D'4'/%3E%3C/svg%3E") repeat-x;
+  background-size: contain;
+  margin-top: 3px;
+}
+
+/* Wavy underline effect under the site title ONLY on the Flow page */
+.site-title.flow::after {
+  content: "";
+  display: block;
+  height: 24px;
+  background: url("data:image/svg+xml,%3Csvg%20width%3D'100'%20height%3D'24'%20viewBox%3D'0%20-12%20100%2024'%20xmlns%3D'http%3A//www.w3.org/2000/svg'%3E%3Cpath%20d%3D'M0%200%20Q25%20-12%2C50%200%20T100%200'%20stroke%3D'%230055aa'%20fill%3D'transparent'%20stroke-width%3D'4'/%3E%3C/svg%3E") repeat-x;
+  background-size: contain;
+  margin-top: 1px;
+}
+
+body.talks-page .wrapper {
+  max-width: 1200px; /* wider content */
+}
+
+body.home-page p {
+  margin-top: 1.4em;
+  margin-bottom: 1.4em;
+}
