@@ -18,7 +18,7 @@ class: home-page
 </div>
 
 <p>
-I am an Assistant Professor of Applied Mathematics at Brown University. <br>
+I am an Assistant Professor of Applied Mathematics and an Affiliated Faculty with the Data Science Institute at Brown University.  <br>
 Previously, I was a C.L.E. Moore instructor and an NSF postdoctoral fellow in the Mathematics department at MIT. I completed my PhD at Princeton University under the supervision of <a href="https://web.math.princeton.edu/~rvan" style="color:#0055aa; text-decoration:none;">Ramon van Handel</a>, and received my B.Sc. from MIT. 
 </p>
 

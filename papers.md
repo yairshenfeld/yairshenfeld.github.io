@@ -11,6 +11,15 @@ permalink: /papers/
 <div class="paper" markdown="1">
 
 
+[**Sectional curvature and matrix displacement convexity**](https://arxiv.org/pdf/2509.23399) <br>
+Gautam Aishwarya, Liran Rotem, Yair Shenfeld  <br>
+*Preprint*. <br>
+[arXiv](https://arxiv.org/abs/2509.23399)
+</div>
+
+<div class="paper" markdown="1">
+
+
 [**A dynamical formulation of multi-marginal optimal transport**](https://arxiv.org/pdf/2509.22494) <br>
 Brendan Pass, Yair Shenfeld  <br>
 *Preprint*. <br>
