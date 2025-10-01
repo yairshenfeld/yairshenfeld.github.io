@@ -1,6 +1,6 @@
 <header class="site-header" role="banner">
   <div class="wrapper">
-    <a class="site-title{% if page.title == 'Flow' %} flow{% endif %}" rel="author" href="{{ "/" | relative_url }}">
+    <a class="site-title{% if page.title == 'Flows' %} flows{% endif %}" rel="author" href="{{ "/" | relative_url }}">
    {{ site.title | escape }}
     </a>
 
@@ -16,7 +16,7 @@
 
       <div class="trigger">
         {% for item in site.navigation %}
-          <a class="page-link{% if item.title == 'Flow' %} flow{% endif %}" href="{{ item.url | relative_url }}">
+          <a class="page-link{% if item.title == 'Flows' %} flows{% endif %}" href="{{ item.url | relative_url }}">
             {{ item.title | escape }}
           </a>
         {% endfor %}
