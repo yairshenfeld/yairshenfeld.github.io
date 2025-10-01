@@ -60,8 +60,8 @@ navigation:
     url: "/"
   - title: "Papers"
     url: "/papers/"
-  - title: "Flow"
-    url: "/flow/"
+  - title: "Flows"
+    url: "/flows/"
   - title: "Talks"
     url: "/talks/"
  
