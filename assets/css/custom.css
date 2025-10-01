@@ -104,7 +104,7 @@
   margin-top: 0.5rem;
 }
 
-.site-nav .page-link.flow::after {
+.site-nav .page-link.flows::after {
   content: "";
   display: block;
   height: 24px;
@@ -113,8 +113,8 @@
   margin-top: 3px;
 }
 
-/* Wavy underline effect under the site title ONLY on the Flow page */
-.site-title.flow::after {
+/* Wavy underline effect under the site title ONLY on the Flows page */
+.site-title.flows::after {
   content: "";
   display: block;
   height: 24px;
