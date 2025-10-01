@@ -60,10 +60,11 @@ navigation:
     url: "/"
   - title: "Papers"
     url: "/papers/"
+  - title: "Flow"
+    url: "/flow/"
   - title: "Talks"
     url: "/talks/"
-#  - title: "Flow"
- #   url: "/flow/"
+ 
   
   
 
