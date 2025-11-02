@@ -31,7 +31,7 @@ class: talks-page
 <div class="talk" markdown="1">
 
 <span class="talk-title">The Brownian and Poisson transport maps</span> <br>
- [Slides](https://drive.google.com/file/d/1tC-KaicrbA5MJYBpCjRYMuDAEsVdXYsx/view) • [Video](https://icerm.brown.edu/video_archive/3911)
+ [Slides](https://drive.google.com/file/d/1oEH2aqhSoJbHkS85L5aQ_Rug99c18wif/view?usp=drive_link) • [Video](https://icerm.brown.edu/video_archive/3911)
 
 </div>
 
