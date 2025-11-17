@@ -24,7 +24,7 @@ class: talks-page
 
 <span class="talk-title">	
 A dynamical formulation of multi-marginal optimal transport</span> <br>
- [Slides](https://drive.google.com/file/d/1sRChRqQOXc1ZafamCWGi88v-LbYbZU8C/view?usp=sharing) 
+ [Slides](https://drive.google.com/file/d/1sRChRqQOXc1ZafamCWGi88v-LbYbZU8C/view?usp=sharing) • [Video](http://www.fields.utoronto.ca/talks/dynamical-formulation-multi-marginal-optimal-transport)
 
 </div>
 
@@ -32,7 +32,7 @@ A dynamical formulation of multi-marginal optimal transport</span> <br>
 <div class="talk" markdown="1">
 
 <span class="talk-title">Optimal transport maps, majorization, and log-subharmonic measures</span> <br>
- [Slides](https://drive.google.com/file/d/1AES3VF2lo3DCSgMI6ImIWnJcxDLiQqZ1/view) 
+ [Slides](https://drive.google.com/file/d/1AES3VF2lo3DCSgMI6ImIWnJcxDLiQqZ1/view) • [Video](https://icerm.brown.edu/video_archive/3911)
 
 </div>
 

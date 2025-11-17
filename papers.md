@@ -40,10 +40,9 @@ Guido De Philippis, Yair Shenfeld  <br>
 
 <div class="paper" markdown="1">
 
-
-[**Stability of Wu’s logarithmic Sobolev inequality via the Poisson‑Föllmer process**](https://arxiv.org/pdf/2410.06117)<br>
+[**Improvement of Wu’s logarithmic Sobolev inequality via the Poisson‑Föllmer process**](https://arxiv.org/pdf/2410.06117)<br>
 Shrey Aryan, Pablo López‑Rivera, Yair Shenfeld  <br>
-*Preprint*. <br>
+*Electronic Communications in Probability. To appear*. <br>
 [arXiv](https://arxiv.org/abs/2410.06117)  
 </div>
 
