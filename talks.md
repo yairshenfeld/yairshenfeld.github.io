@@ -5,6 +5,9 @@ permalink: /talks/
 class: talks-page
 ---
 
+<h2 style="margin-top:2em;">Expository Talks</h2>
+
+
 <div class="talk" markdown="1">
 
 <span class="talk-title">Mini-course on Optimal Transport and High-Dimensional Probability (with Sinho Chewi)</span>  <br>
@@ -19,6 +22,9 @@ class: talks-page
 [Slides](https://drive.google.com/file/d/1cKZ8OdZCg14N093FBKhbVZ4fXnlSVQ1i/view?usp=sharing) • [Video](https://mathtube.org/lecture/video/density-functional-theory-and-multi-marginal-optimal-transport-introduction)
 
 </div>
+
+<h2 style="margin-top:2em;">Research Talks</h2>
+
 
 <div class="talk" markdown="1">
 
