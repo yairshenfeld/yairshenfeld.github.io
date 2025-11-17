@@ -124,12 +124,12 @@
 .site-title.flows::after {
   content: "";
   display: block;
-  height: 14px;
+  height: 14px; /* 24px*/
   background-image: url("data:image/svg+xml,%3Csvg%20width%3D'100'%20height%3D'24'%20viewBox%3D'0%20-12%20100%2024'%20xmlns%3D'http%3A//www.w3.org/2000/svg'%3E%3Cpath%20d%3D'M0%200%20Q25%20-12%2C50%200%20T100%200'%20stroke%3D'%230055aa'%20fill%3D'transparent'%20stroke-width%3D'4'/%3E%3C/svg%3E");
   background-repeat: repeat-x;      /* use manual tiling */
-  background-size: 30px 90%;       /* adjust first number to tune width */
+  background-size: 30px 90%;    /* contain;   /* adjust first number to tune width */   
   background-position: -2px bottom;
-  margin-top: -3px;
+  margin-top: -3px; /*1px; */
 }
 
 
