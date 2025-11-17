@@ -32,7 +32,7 @@ A dynamical formulation of multi-marginal optimal transport</span> <br>
 <div class="talk" markdown="1">
 
 <span class="talk-title">Optimal transport maps, majorization, and log-subharmonic measures</span> <br>
- [Slides](https://drive.google.com/file/d/1AES3VF2lo3DCSgMI6ImIWnJcxDLiQqZ1/view) • [Video](https://icerm.brown.edu/video_archive/3911)
+ [Slides](https://drive.google.com/file/d/1AES3VF2lo3DCSgMI6ImIWnJcxDLiQqZ1/view) • [Video](https://panoptotech.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=edd9816c-909f-45b5-b28e-b2ab00f2b159)
 
 </div>
 
