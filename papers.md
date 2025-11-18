@@ -42,7 +42,7 @@ Guido De Philippis, Yair Shenfeld  <br>
 
 [**Improvement of Wu’s logarithmic Sobolev inequality via the Poisson‑Föllmer process**](https://arxiv.org/pdf/2410.06117)<br>
 Shrey Aryan, Pablo López‑Rivera, Yair Shenfeld  <br>
-*Electronic Communications in Probability. To appear*. <br>
+*Electronic Communications in Probability*, 2025, Vol. 30, paper no. 91, 1-14. <br>
 [Journal](https://projecteuclid.org/journals/electronic-communications-in-probability/volume-30/issue-none/Improvement-of-Wus-logarithmic-Sobolev-inequality-via-the-Poisson-F%c3%b6llmer/10.1214/25-ECP740.full) • [arXiv](https://arxiv.org/abs/2410.06117)  
 
 
