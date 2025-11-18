@@ -46,9 +46,6 @@ Shrey Aryan, Pablo López‑Rivera, Yair Shenfeld  <br>
 [Journal](https://projecteuclid.org/journals/electronic-communications-in-probability/volume-30/issue-none/Improvement-of-Wus-logarithmic-Sobolev-inequality-via-the-Poisson-F%c3%b6llmer/10.1214/25-ECP740.full) • [arXiv](https://arxiv.org/abs/2410.06117)  
 
 
-
-
-
 </div>
 
 
@@ -57,7 +54,7 @@ Shrey Aryan, Pablo López‑Rivera, Yair Shenfeld  <br>
 
 [**The Poisson transport map**](https://arxiv.org/pdf/2407.02359)<br>
 Pablo López‑Rivera, Yair Shenfeld  <br>
-*Journal of Functional Analysis*, 288, 10.  <br>
+*Journal of Functional Analysis*, 288, 10 (2025).  <br>
 [Journal](https://www.sciencedirect.com/science/article/pii/S0022123625000461) • [arXiv](https://arxiv.org/abs/2407.02359) 
 </div>
 
