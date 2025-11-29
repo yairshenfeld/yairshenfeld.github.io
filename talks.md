@@ -29,6 +29,15 @@ class: talks-page
 <div class="talk" markdown="1">
 
 <span class="talk-title">	
+Sectional curvature, matrix displacement convexity, and intrinsic dimensional functional inequalities</span> <br>
+ [Slides](https://drive.google.com/file/d/1pE7SL2uV4Tmm7O3Iwc0VgxqywfjpILwE/view?usp=drive_link) 
+
+</div>
+
+
+<div class="talk" markdown="1">
+
+<span class="talk-title">	
 A dynamical formulation of multi-marginal optimal transport</span> <br>
  [Slides](https://drive.google.com/file/d/1sRChRqQOXc1ZafamCWGi88v-LbYbZU8C/view?usp=sharing) • [Video](http://www.fields.utoronto.ca/talks/dynamical-formulation-multi-marginal-optimal-transport)
 
