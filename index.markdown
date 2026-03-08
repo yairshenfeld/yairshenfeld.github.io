@@ -5,7 +5,7 @@ permalink: /
 class: home-page
 ---
 
-<div style="float: right; width: 230px; margin-left: 1rem; margin-bottom: 1rem;">
+<div style="float: right; width: 210px; margin-left: 1rem; margin-bottom: 1rem;">
   <img src="/assets/img/profile_brown.jpg" alt="Yair Shenfeld"
        style="width: 100%; border-radius: 4px;" />
   <div style="font-size: 0.7rem; color: #777; margin-top: 0.4rem; text-align: center;">
