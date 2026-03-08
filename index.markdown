@@ -8,7 +8,7 @@ class: home-page
 <div style="float: right; width: 230px; margin-left: 1rem; margin-bottom: 1rem;">
   <img src="/assets/img/profile_brown.jpg" alt="Yair Shenfeld"
        style="width: 100%; border-radius: 4px;" />
-  <div style="font-size: 0.7rem; color: #777; margin-top: 0.4rem; text-align: left;">
+  <div style="font-size: 0.7rem; color: #777; margin-top: 0.4rem; text-align: center;">
     <a href="https://scholar.google.com/citations?user=7IGd1fgAAAAJ&hl=en" style="color:#0055aa; text-decoration:none;">Google Scholar</a> • 
     <a href="https://github.com/yairshenfeld" style="color:#0055aa; text-decoration:none;">GitHub</a> • 
     <a href="https://drive.google.com/file/d/1-lVnvC7gWc2dQ-vgY5WBV4-Y4VD3v7Ov/view" style="color:#0055aa; text-decoration:none;">CV</a>
