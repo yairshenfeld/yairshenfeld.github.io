@@ -8,6 +8,18 @@ permalink: /papers/
 
 
 
+
+
+<div class="paper" markdown="1">
+
+
+[**Binomial flows: Denoising and flow matching for discrete ordinal data**](https://arxiv.org/pdf/2605.00360) <br>
+Yair Shenfeld, Ricardo Baptista, Stefano Peluchetti  <br>
+*Preprint*. <br>
+[arXiv](https://arxiv.org/abs/2605.00360)
+</div>
+
+
 <div class="paper" markdown="1">
 
 
@@ -16,6 +28,8 @@ Gautam Aishwarya, Liran Rotem, Yair Shenfeld  <br>
 *Preprint*. <br>
 [arXiv](https://arxiv.org/abs/2509.23399)
 </div>
+
+
 
 <div class="paper" markdown="1">
 
