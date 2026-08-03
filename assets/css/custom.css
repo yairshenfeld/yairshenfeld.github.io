@@ -141,3 +141,27 @@ body.home-page p {
   margin-top: 1.4em;
   margin-bottom: 1.4em;
 }
+
+.home-profile {
+  float: right;
+  width: 210px;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.profile-links {
+  margin-top: 0.4rem;
+  color: #777;
+  font-size: 0.9rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.profile-contact {
+  margin-top: 0.45rem;
+  color: #777;
+  font-size: 0.7rem;
+  font-style: normal;
+  line-height: 1.45;
+  text-align: center;
+}
