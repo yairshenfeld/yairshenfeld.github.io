@@ -20,7 +20,7 @@ class: home-page
 </div>
 
 <p>
-I currently work in generative AI, focusing on diffusion models and optimal transport. Before that I worked in high-dimensional probability and convex geometry.
+I currently work in Generative AI, including on the foundations and applications of diffusion models and optimal transport. Prior, I worked in high-dimensional probability and convex geometry.
 </p>
 
 <p style="margin-top: 2em;">
