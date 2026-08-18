@@ -8,6 +8,7 @@ class: talks-page
 <h2 style="margin-top:2em;">Expository Talks</h2>
 
 
+
 <div class="talk" markdown="1">
 
 <span class="talk-title">Mini-course on Optimal Transport and High-Dimensional Probability (with Sinho Chewi)</span>  <br>
@@ -24,6 +25,15 @@ class: talks-page
 </div>
 
 <h2 style="margin-top:2em;">Research Talks</h2>
+
+
+<div class="talk" markdown="1">
+
+<span class="talk-title">	
+Binomial Flows: Denoising and flow matching for discrete ordinal data</span> <br>
+ [Slides](https://drive.google.com/file/d/1p0tEP71Fmckw8H0Ml43San1dFUJVXrDS/view?usp=sharing) 
+
+</div>
 
 
 <div class="talk" markdown="1">
