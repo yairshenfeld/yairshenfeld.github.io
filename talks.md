@@ -31,7 +31,8 @@ class: talks-page
 
 <span class="talk-title">	
 Binomial Flows: Denoising and flow matching for discrete ordinal data</span> <br>
- [Slides](https://drive.google.com/file/d/1p0tEP71Fmckw8H0Ml43San1dFUJVXrDS/view?usp=sharing) 
+ [Slides](https://drive.google.com/file/d/1p0tEP71Fmckw8H0Ml43San1dFUJVXrDS/view?usp=sharing) • [Video](https://www.microsoft.com/en-us/research/video/binomial-flows-denoising-and-flow-matching-for-discrete-ordinal-data/)
+
 
 </div>
 
