@@ -2,6 +2,23 @@
   margin-bottom: 2em;
 }
 
+.author-order {
+  margin-left: 0.12em;
+  font-size: 0.75em;
+  line-height: 0;
+}
+
+.author-order-legend {
+  margin-top: -0.5em;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.author-order-legend sup {
+  display: inline-block;
+  min-width: 1em;
+}
+
 /* Spacing between talks */
 .talk {
   margin-bottom: 1em;
