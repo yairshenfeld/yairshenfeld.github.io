@@ -6,7 +6,14 @@ permalink: /papers/
 <!-- 
 ## Publications and Preprints -->
 
+<div class="paper" markdown="1">
 
+
+[**Wasserstein Residuals: Learning Gradient Flows from Population Dynamics**](https://arxiv.org/pdf/2607.04738) <br>
+Markus Heinonen, Yair Shenfeld<sup class="author-order" title="Authors listed in non-alphabetical order" aria-label="Authors listed in non-alphabetical order">‡</sup>, Ricardo Baptista, Daniel Waxman, Dmitry Batenkov, Tim Cooijmans, Eli Bingham  <br>
+*NeurIPS 2026 (Poster).* <br>
+[arXiv](https://arxiv.org/abs/2607.04738)
+</div>
 
 
 
