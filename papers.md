@@ -6,6 +6,9 @@ permalink: /papers/
 <!-- 
 ## Publications and Preprints -->
 
+<div class="paper" markdown="1">
+
+
 
 [**Jumping up and down: Denoiser diffusion models for discrete ordinal data**](https://arxiv.org/abs/2610.02754) <br>
 Yair Shenfeld<sup class="author-order" title="Authors listed in non-alphabetical order" aria-label="Authors listed in non-alphabetical order">‡</sup>, Ricardo Baptista, Stefano Peluchetti  <br>
