@@ -18,7 +18,7 @@ class: home-page
 </div>
 
 <p>
-I currently work in generative AI (diffusion models, optimal transport, etc.). Prior, I worked in high-dimensional probability and convex geometry.
+I currently work in generative AI. Prior, I worked in high-dimensional probability and convex geometry.
 </p>
 
 <p class="home-biography">
