@@ -1,3 +1,155 @@
+/* Site settings: adjust these before overriding individual components. */
+:root {
+  --link-color: #0055aa;
+  --muted-color: #777;
+  --content-width: 800px;
+  --wide-content-width: 1200px;
+  --profile-width: 210px;
+  --wave-image: url("data:image/svg+xml,%3Csvg%20width%3D'100'%20height%3D'24'%20viewBox%3D'0%20-12%20100%2024'%20xmlns%3D'http%3A//www.w3.org/2000/svg'%3E%3Cpath%20d%3D'M0%200%20Q25%20-12%2C50%200%20T100%200'%20stroke%3D'%230055aa'%20fill%3D'transparent'%20stroke-width%3D'4'/%3E%3C/svg%3E");
+}
+
+/* Shared layout and keyboard access. Minima supplies typography and spacing. */
+.wrapper {
+  max-width: calc(var(--content-width) - 60px);
+}
+
+.page-content > .wrapper {
+  display: flow-root;
+}
+
+.visually-hidden,
+.skip-link:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.skip-link:focus {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  padding: 0.75rem;
+  background: white;
+}
+
+a:focus-visible,
+.nav-toggle:focus-visible + .nav-toggle-label {
+  outline: 2px solid var(--link-color);
+  outline-offset: 4px;
+}
+
+/* Header and navigation. These classes are independent of Minima's menu. */
+.site-header {
+  padding: 1rem 0;
+}
+
+.site-header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.site-title {
+  display: inline-block;
+  padding: 0;
+}
+
+.primary-nav {
+  margin-left: auto;
+}
+
+.nav-toggle,
+.nav-toggle-label {
+  display: none;
+}
+
+.nav-links {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.nav-link,
+.nav-link:visited {
+  color: #111;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.has-wave::after {
+  content: "";
+  display: block;
+  background-image: var(--wave-image);
+  background-repeat: repeat-x;
+}
+
+.nav-link.has-wave::after {
+  height: 24px;
+  background-size: contain;
+  margin-top: 3px;
+}
+
+.site-title.has-wave::after {
+  height: 14px;
+  background-size: 30px 90%;
+  background-position: -2px bottom;
+  margin-top: -3px;
+}
+
+/* Homepage. */
+.home-page .page-content p {
+  margin-top: 1.4em;
+  margin-bottom: 1.4em;
+}
+
+.home-page .page-content .home-biography {
+  margin-top: 2em;
+}
+
+.home-page .page-content a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.home-profile {
+  float: right;
+  width: var(--profile-width);
+  max-width: 100%;
+  margin: 0 0 1rem 1rem;
+}
+
+.home-profile img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.profile-links {
+  margin-top: 0.4rem;
+  color: var(--muted-color);
+  font-size: 0.9rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.profile-contact {
+  margin-top: 0.45rem;
+  color: var(--muted-color);
+  font-size: 0.7rem;
+  font-style: normal;
+  line-height: 1.45;
+  text-align: center;
+}
+
+/* Papers. */
 .paper {
   margin-bottom: 2em;
 }
@@ -19,12 +171,19 @@
   min-width: 1em;
 }
 
-/* Spacing between talks */
+/* Talks: only the content widens, keeping the header consistent. */
+.talks-page .page-content > .wrapper {
+  max-width: var(--wide-content-width);
+}
+
+.talk-section-title {
+  margin-top: 2em;
+}
+
 .talk {
   margin-bottom: 1em;
 }
 
-/* Style for the talk title (on same line as links) */
 .talk-title {
   font-size: 1.1rem;
   font-weight: 500;
@@ -33,152 +192,70 @@
   margin-right: 0.2em;
 }
 
-/* Optional: Style the talk links */
 .talk a {
   font-size: 0.95rem;
   text-decoration: underline;
-  color: #0055aa;
+  color: var(--link-color);
 }
 
-/* Remove sidebar layout and leftover bullets/padding */
-.site-nav .trigger {
-  all: unset;
-  display: inline-block;
-  padding-left: 0;
-  list-style: none;
-}
+/* One breakpoint controls both menu visibility and the toggle. */
+@media screen and (max-width: 600px) {
+  .wrapper {
+    max-width: calc(var(--content-width) - 30px);
+  }
 
-/* Top-right nav link styling */
-.site-nav .page-link {
-  display: inline-block;
-  margin-left: 1rem;
-  text-decoration: none;
-}
+  .primary-nav {
+    position: relative;
+  }
 
-/* Align header items vertically */
-.site-header {
-  padding: 1rem 0;
-}
+  .nav-toggle {
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
 
-/* Align contents of header horizontally */
-.site-header .wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* 👇 NEW: Force nav block to align right */
-.site-nav {
-  margin-left: auto;
-}
-
-/* Responsive hamburger menu */
-@media screen and (max-width: 768px) {
-  .site-nav label {
-    display: inline-block;
+  .nav-toggle-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
     cursor: pointer;
   }
 
-  .site-nav input.nav-trigger {
+  .nav-links {
     display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 2;
+    min-width: 120px;
+    padding: 0.5rem 1rem;
+    background: #fdfdfd;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    text-align: right;
   }
 
-  .site-nav .trigger {
-    display: none;
-    margin-top: 0.5rem;
-  }
-
-  .site-nav input.nav-trigger:checked + label + .trigger {
+  .nav-toggle:checked ~ .nav-links {
     display: block;
   }
 
-  .site-nav .page-link {
+  .nav-link {
     display: block;
     margin: 0.5rem 0;
   }
 }
 
-.home-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 2rem;
-  margin-top: 1rem;
-  flex-wrap: wrap;
-}
-
-.home-text {
-  flex: 1;
-  min-width: 250px;
-  font-size: 1rem;
-  line-height: 1.6;
-}
-
-.home-photo img {
-  width: 180px;
-  height: auto;
-  border-radius: 4px;
-  margin-top: 0.5rem;
-}
-
-.site-nav .page-link.flows::after {
-  content: "";
-  display: block;
-  height: 24px;
-  background: url("data:image/svg+xml,%3Csvg%20width%3D'100'%20height%3D'24'%20viewBox%3D'0%20-12%20100%2024'%20xmlns%3D'http%3A//www.w3.org/2000/svg'%3E%3Cpath%20d%3D'M0%200%20Q25%20-12%2C50%200%20T100%200'%20stroke%3D'%230055aa'%20fill%3D'transparent'%20stroke-width%3D'4'/%3E%3C/svg%3E") repeat-x;
-  background-size: contain;
-  margin-top: 3px;
-}
-
-
-/* Wavy underline effect under the site title ONLY on the Flows page */
-
-.site-title {
-  display: inline-block;
-  padding: 0;
-}
-
-.site-title.flows::after {
-  content: "";
-  display: block;
-  height: 14px; /* 24px*/
-  background-image: url("data:image/svg+xml,%3Csvg%20width%3D'100'%20height%3D'24'%20viewBox%3D'0%20-12%20100%2024'%20xmlns%3D'http%3A//www.w3.org/2000/svg'%3E%3Cpath%20d%3D'M0%200%20Q25%20-12%2C50%200%20T100%200'%20stroke%3D'%230055aa'%20fill%3D'transparent'%20stroke-width%3D'4'/%3E%3C/svg%3E");
-  background-repeat: repeat-x;      /* use manual tiling */
-  background-size: 30px 90%;    /* contain;   /* adjust first number to tune width */   
-  background-position: -2px bottom;
-  margin-top: -3px; /*1px; */
-}
-
-
-body.talks-page .wrapper {
-  max-width: 1200px; /* wider content */
-}
-
-body.home-page p {
-  margin-top: 1.4em;
-  margin-bottom: 1.4em;
-}
-
-.home-profile {
-  float: right;
-  width: 210px;
-  margin-left: 1rem;
-  margin-bottom: 1rem;
-}
-
-.profile-links {
-  margin-top: 0.4rem;
-  color: #777;
-  font-size: 0.9rem;
-  text-align: center;
-  white-space: nowrap;
-}
-
-.profile-contact {
-  margin-top: 0.45rem;
-  color: #777;
-  font-size: 0.7rem;
-  font-style: normal;
-  line-height: 1.45;
-  text-align: center;
+@media screen and (max-width: 420px) {
+  .home-profile {
+    float: none;
+    margin: 0 auto 1.5rem;
+  }
 }

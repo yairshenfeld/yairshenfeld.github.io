@@ -1,0 +1,9 @@
+{% assign paper = include.paper %}
+<div class="paper">
+  <p>
+    <a href="{{ paper.url | relative_url | escape }}"><strong>{{ paper.title | escape }}</strong></a><br>
+    {% for author in paper.authors %}{{ author | escape }}{% if author == site.author.name and paper.author_order %}<sup class="author-order" title="Authors listed in {{ paper.author_order | escape }} order" aria-label="Authors listed in {{ paper.author_order | escape }} order">{% if paper.author_order == 'alphabetical' %}†{% else %}‡{% endif %}</sup>{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}<br>
+    {{ paper.citation | markdownify | remove: '<p>' | remove: '</p>' | strip }}<br>
+    {% include resource-links.html links=paper.links %}
+  </p>
+</div>

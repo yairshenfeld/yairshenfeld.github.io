@@ -1,0 +1,1 @@
+{% for link in include.links %}<a href="{{ link.url | relative_url | escape }}">{{ link.label | escape }}</a>{% unless forloop.last %} • {% endunless %}{% endfor %}

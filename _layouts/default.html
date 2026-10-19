@@ -1,23 +1,13 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
-  {%- include head.html -%}
-
-  <body class="{{ page.class | default: '' }} {{ page.layout | default: '' }}">
-
-    {%- include header.html -%}
-
-    <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
-
-    <main class="page-content" aria-label="Content">
+<html lang="{{ page.lang | default: site.lang | default: 'en' | escape }}">
+  {% include head.html %}
+  <body class="{{ page.class | default: '' | escape }}">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    {% include header.html %}
+    <main id="main-content" class="page-content" aria-label="Content" tabindex="-1">
       <div class="wrapper">
         {{ content }}
       </div>
     </main>
-
-    {%- include footer.html -%}
-
   </body>
-
-
 </html>
